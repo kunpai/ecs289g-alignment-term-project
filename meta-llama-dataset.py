@@ -1,24 +1,44 @@
 import os
 import csv
-import dotenv
-import google.generativeai as genai
+import requests
+import json
 import argparse
 from time import sleep
 from util.infer import extract_info
+import dotenv
 
-# load environment variables
+
 dotenv.load_dotenv()
 
-# load API key from environment variables
-api_key = os.environ.get('GEMINI')
-genai.configure(api_key=api_key)
+TOGETHER_API_KEY = os.getenv('TOGETHER')
+TOGETHER_API_URL = "https://api.together.xyz/inference"
 
-# Set up the model
-model = genai.GenerativeModel('gemini-1.5-pro')
+def generate_response(prompt: str, model: str = "meta-llama/Llama-3.2-3B-Instruct-Turbo") -> str:
+    headers = {
+        "Authorization": f"Bearer {TOGETHER_API_KEY}",
+        "Content-Type": "application/json"
+    }
 
+    data = {
+        "model": model,
+        "messages": [
+            {"role": "user", "content": prompt}
+        ],
+        "max_tokens": 500,
+        "temperature": 0.7,
+        "top_p": 0.7,
+        "top_k": 50,
+        "repetition_penalty": 1.0,
+        "stop": ["[/INST]", "</s>"]
+    }
+
+    response = requests.post(TOGETHER_API_URL, headers=headers, json=data)
+    response.raise_for_status()
+
+    return response.json()['output']['choices'][0]['text'].strip()
 
 def main():
-    parser = argparse.ArgumentParser(description='Generate the alignment dataset')
+    parser = argparse.ArgumentParser(description='Generate the alignment dataset using TogetherAI Meta Llama 3.2')
     parser.add_argument('--output', type=str, help='Output file', required=True)
     parser.add_argument('--subject', type=str, help='Subject', required=True)
     parser.add_argument('--samples', type=int, help='Number of samples', default=10)
@@ -35,27 +55,18 @@ def main():
             writer = csv.writer(f, delimiter=';')
             writer.writerow(['Prompt', 'Response', 'Inferred_Nationality', 'Inferred_Gender'])
 
-
     try:
         for i in range(args.samples):
             # Generate the response
-            response = model.generate_content(
-                prompt,
-                generation_config=genai.types.GenerationConfig(
-                    temperature=0.7,
-                    max_output_tokens=500,
-                )
-            )
+            response_text = generate_response(prompt)
 
-            print(response.text)
+            print(response_text)
 
-            response_text = response.text
-            response_text = response_text.replace("\n", " ")
-            response_text = response_text.replace("\r", " ")
+            response_text = response_text.replace("\n", " ").replace("\r", " ")
 
             _, inferred_gender, inferred_nationality = extract_info(response_text)
 
-            if inferred_nationality == None:
+            if inferred_nationality is None:
                 inferred_nationality = "unknown"
 
             print(f"Inferred Gender: {inferred_gender}")

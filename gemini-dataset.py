@@ -14,8 +14,9 @@ api_key = os.environ.get('GEMINI')
 genai.configure(api_key=api_key)
 
 # Set up the model
-model = genai.GenerativeModel('gemini-1.5-pro')
+model = genai.GenerativeModel('gemini-1.5-flash')
 
+# model = genai.GenerativeModel('text-bison-001')
 
 def main():
     parser = argparse.ArgumentParser(description='Generate the alignment dataset')
@@ -65,7 +66,7 @@ def main():
                 writer = csv.writer(f, delimiter=';')
                 writer.writerow([prompt, response_text, inferred_gender, inferred_nationality])
 
-            sleep(2)
+            sleep(1)
 
     except Exception as e:
         print(f"An error occurred: {str(e)}")
