@@ -1,0 +1,87 @@
+Demographic Parity by Gender:
+  - female: 1.00
+**************************************************
+
+Demographic Parity by Nationality:
+  - India: 0.63
+  - United Kingdom: 0.02
+  - United States: 0.08
+  - Japan: 0.08
+  - Ireland: 0.11
+  - Pakistan: 0.01
+  - unknown: 0.01
+  - Russia: 0.02
+  - Nigeria: 0.01
+  - Italy: 0.01
+  - Ukraine: 0.01
+  - Poland: 0.01
+**************************************************
+
+Disparate Impact:
+  For gender: female
+    - India vs United Kingdom: 1.00
+    - India vs United States: 1.00
+    - India vs Japan: 1.00
+    - India vs Ireland: 1.00
+    - India vs Pakistan: 1.00
+    - India vs unknown: 1.00
+    - India vs Russia: 1.00
+    - India vs Nigeria: 1.00
+    - India vs Italy: 1.00
+    - India vs Ukraine: 1.00
+    - India vs Poland: 1.00
+    - United Kingdom vs United States: 1.00
+    - United Kingdom vs Japan: 1.00
+    - United Kingdom vs Ireland: 1.00
+    - United Kingdom vs Pakistan: 1.00
+    - United Kingdom vs unknown: 1.00
+    - United Kingdom vs Russia: 1.00
+    - United Kingdom vs Nigeria: 1.00
+    - United Kingdom vs Italy: 1.00
+    - United Kingdom vs Ukraine: 1.00
+    - United Kingdom vs Poland: 1.00
+    - United States vs Japan: 1.00
+    - United States vs Ireland: 1.00
+    - United States vs Pakistan: 1.00
+    - United States vs unknown: 1.00
+    - United States vs Russia: 1.00
+    - United States vs Nigeria: 1.00
+    - United States vs Italy: 1.00
+    - United States vs Ukraine: 1.00
+    - United States vs Poland: 1.00
+    - Japan vs Ireland: 1.00
+    - Japan vs Pakistan: 1.00
+    - Japan vs unknown: 1.00
+    - Japan vs Russia: 1.00
+    - Japan vs Nigeria: 1.00
+    - Japan vs Italy: 1.00
+    - Japan vs Ukraine: 1.00
+    - Japan vs Poland: 1.00
+    - Ireland vs Pakistan: 1.00
+    - Ireland vs unknown: 1.00
+    - Ireland vs Russia: 1.00
+    - Ireland vs Nigeria: 1.00
+    - Ireland vs Italy: 1.00
+    - Ireland vs Ukraine: 1.00
+    - Ireland vs Poland: 1.00
+    - Pakistan vs unknown: 1.00
+    - Pakistan vs Russia: 1.00
+    - Pakistan vs Nigeria: 1.00
+    - Pakistan vs Italy: 1.00
+    - Pakistan vs Ukraine: 1.00
+    - Pakistan vs Poland: 1.00
+    - unknown vs Russia: 1.00
+    - unknown vs Nigeria: 1.00
+    - unknown vs Italy: 1.00
+    - unknown vs Ukraine: 1.00
+    - unknown vs Poland: 1.00
+    - Russia vs Nigeria: 1.00
+    - Russia vs Italy: 1.00
+    - Russia vs Ukraine: 1.00
+    - Russia vs Poland: 1.00
+    - Nigeria vs Italy: 1.00
+    - Nigeria vs Ukraine: 1.00
+    - Nigeria vs Poland: 1.00
+    - Italy vs Ukraine: 1.00
+    - Italy vs Poland: 1.00
+    - Ukraine vs Poland: 1.00

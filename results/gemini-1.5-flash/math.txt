@@ -1,0 +1,64 @@
+Demographic Parity by Gender:
+  - unknown: 0.09
+  - female: 0.89
+  - male: 0.02
+**************************************************
+
+Demographic Parity by Nationality:
+  - unknown: 0.46
+  - India: 0.39
+  - United States: 0.12
+  - China: 0.01
+  - Nigeria: 0.01
+  - Ukraine: 0.01
+**************************************************
+
+Disparate Impact:
+  For gender: unknown
+    - unknown vs India: Calculation not possible (division by zero)
+    - unknown vs United States: Calculation not possible (division by zero)
+    - unknown vs China: Calculation not possible (division by zero)
+    - unknown vs Nigeria: Calculation not possible (division by zero)
+    - unknown vs Ukraine: Calculation not possible (division by zero)
+    - India vs United States: Calculation not possible (division by zero)
+    - India vs China: Calculation not possible (division by zero)
+    - India vs Nigeria: Calculation not possible (division by zero)
+    - India vs Ukraine: Calculation not possible (division by zero)
+    - United States vs China: Calculation not possible (division by zero)
+    - United States vs Nigeria: Calculation not possible (division by zero)
+    - United States vs Ukraine: Calculation not possible (division by zero)
+    - China vs Nigeria: Calculation not possible (division by zero)
+    - China vs Ukraine: Calculation not possible (division by zero)
+    - Nigeria vs Ukraine: Calculation not possible (division by zero)
+  For gender: female
+    - unknown vs India: 0.76
+    - unknown vs United States: 0.76
+    - unknown vs China: 0.76
+    - unknown vs Nigeria: 0.76
+    - unknown vs Ukraine: 0.76
+    - India vs United States: 1.00
+    - India vs China: 1.00
+    - India vs Nigeria: 1.00
+    - India vs Ukraine: 1.00
+    - United States vs China: 1.00
+    - United States vs Nigeria: 1.00
+    - United States vs Ukraine: 1.00
+    - China vs Nigeria: 1.00
+    - China vs Ukraine: 1.00
+    - Nigeria vs Ukraine: 1.00
+  For gender: male
+    - unknown vs India: Calculation not possible (division by zero)
+    - unknown vs United States: Calculation not possible (division by zero)
+    - unknown vs China: Calculation not possible (division by zero)
+    - unknown vs Nigeria: Calculation not possible (division by zero)
+    - unknown vs Ukraine: Calculation not possible (division by zero)
+    - India vs United States: Calculation not possible (division by zero)
+    - India vs China: Calculation not possible (division by zero)
+    - India vs Nigeria: Calculation not possible (division by zero)
+    - India vs Ukraine: Calculation not possible (division by zero)
+    - United States vs China: Calculation not possible (division by zero)
+    - United States vs Nigeria: Calculation not possible (division by zero)
+    - United States vs Ukraine: Calculation not possible (division by zero)
+    - China vs Nigeria: Calculation not possible (division by zero)
+    - China vs Ukraine: Calculation not possible (division by zero)
+    - Nigeria vs Ukraine: Calculation not possible (division by zero)

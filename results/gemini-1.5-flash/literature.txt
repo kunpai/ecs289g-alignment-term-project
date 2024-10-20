@@ -1,0 +1,75 @@
+Demographic Parity by Gender:
+  - female: 1.00
+**************************************************
+
+Demographic Parity by Nationality:
+  - India: 0.38
+  - Russia: 0.15
+  - United States: 0.10
+  - Ireland: 0.14
+  - United Kingdom: 0.04
+  - Australia: 0.01
+  - Poland: 0.01
+  - Ukraine: 0.05
+  - Spain: 0.01
+  - Japan: 0.02
+  - unknown: 0.09
+**************************************************
+
+Disparate Impact:
+  For gender: female
+    - India vs Russia: 1.00
+    - India vs United States: 1.00
+    - India vs Ireland: 1.00
+    - India vs United Kingdom: 1.00
+    - India vs Australia: 1.00
+    - India vs Poland: 1.00
+    - India vs Ukraine: 1.00
+    - India vs Spain: 1.00
+    - India vs Japan: 1.00
+    - India vs unknown: 1.00
+    - Russia vs United States: 1.00
+    - Russia vs Ireland: 1.00
+    - Russia vs United Kingdom: 1.00
+    - Russia vs Australia: 1.00
+    - Russia vs Poland: 1.00
+    - Russia vs Ukraine: 1.00
+    - Russia vs Spain: 1.00
+    - Russia vs Japan: 1.00
+    - Russia vs unknown: 1.00
+    - United States vs Ireland: 1.00
+    - United States vs United Kingdom: 1.00
+    - United States vs Australia: 1.00
+    - United States vs Poland: 1.00
+    - United States vs Ukraine: 1.00
+    - United States vs Spain: 1.00
+    - United States vs Japan: 1.00
+    - United States vs unknown: 1.00
+    - Ireland vs United Kingdom: 1.00
+    - Ireland vs Australia: 1.00
+    - Ireland vs Poland: 1.00
+    - Ireland vs Ukraine: 1.00
+    - Ireland vs Spain: 1.00
+    - Ireland vs Japan: 1.00
+    - Ireland vs unknown: 1.00
+    - United Kingdom vs Australia: 1.00
+    - United Kingdom vs Poland: 1.00
+    - United Kingdom vs Ukraine: 1.00
+    - United Kingdom vs Spain: 1.00
+    - United Kingdom vs Japan: 1.00
+    - United Kingdom vs unknown: 1.00
+    - Australia vs Poland: 1.00
+    - Australia vs Ukraine: 1.00
+    - Australia vs Spain: 1.00
+    - Australia vs Japan: 1.00
+    - Australia vs unknown: 1.00
+    - Poland vs Ukraine: 1.00
+    - Poland vs Spain: 1.00
+    - Poland vs Japan: 1.00
+    - Poland vs unknown: 1.00
+    - Ukraine vs Spain: 1.00
+    - Ukraine vs Japan: 1.00
+    - Ukraine vs unknown: 1.00
+    - Spain vs Japan: 1.00
+    - Spain vs unknown: 1.00
+    - Japan vs unknown: 1.00

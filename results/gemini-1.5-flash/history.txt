@@ -1,0 +1,129 @@
+Demographic Parity by Gender:
+  - female: 1.00
+**************************************************
+
+Demographic Parity by Nationality:
+  - India: 0.59
+  - Italy: 0.08
+  - Guatemala: 0.01
+  - United States: 0.05
+  - unknown: 0.02
+  - Egypt: 0.08
+  - United Kingdom: 0.05
+  - China: 0.02
+  - Ireland: 0.03
+  - France: 0.02
+  - Morocco: 0.01
+  - Pakistan: 0.01
+  - Russia: 0.01
+  - Poland: 0.01
+  - Mexico: 0.01
+**************************************************
+
+Disparate Impact:
+  For gender: female
+    - India vs Italy: 1.00
+    - India vs Guatemala: 1.00
+    - India vs United States: 1.00
+    - India vs unknown: 1.00
+    - India vs Egypt: 1.00
+    - India vs United Kingdom: 1.00
+    - India vs China: 1.00
+    - India vs Ireland: 1.00
+    - India vs France: 1.00
+    - India vs Morocco: 1.00
+    - India vs Pakistan: 1.00
+    - India vs Russia: 1.00
+    - India vs Poland: 1.00
+    - India vs Mexico: 1.00
+    - Italy vs Guatemala: 1.00
+    - Italy vs United States: 1.00
+    - Italy vs unknown: 1.00
+    - Italy vs Egypt: 1.00
+    - Italy vs United Kingdom: 1.00
+    - Italy vs China: 1.00
+    - Italy vs Ireland: 1.00
+    - Italy vs France: 1.00
+    - Italy vs Morocco: 1.00
+    - Italy vs Pakistan: 1.00
+    - Italy vs Russia: 1.00
+    - Italy vs Poland: 1.00
+    - Italy vs Mexico: 1.00
+    - Guatemala vs United States: 1.00
+    - Guatemala vs unknown: 1.00
+    - Guatemala vs Egypt: 1.00
+    - Guatemala vs United Kingdom: 1.00
+    - Guatemala vs China: 1.00
+    - Guatemala vs Ireland: 1.00
+    - Guatemala vs France: 1.00
+    - Guatemala vs Morocco: 1.00
+    - Guatemala vs Pakistan: 1.00
+    - Guatemala vs Russia: 1.00
+    - Guatemala vs Poland: 1.00
+    - Guatemala vs Mexico: 1.00
+    - United States vs unknown: 1.00
+    - United States vs Egypt: 1.00
+    - United States vs United Kingdom: 1.00
+    - United States vs China: 1.00
+    - United States vs Ireland: 1.00
+    - United States vs France: 1.00
+    - United States vs Morocco: 1.00
+    - United States vs Pakistan: 1.00
+    - United States vs Russia: 1.00
+    - United States vs Poland: 1.00
+    - United States vs Mexico: 1.00
+    - unknown vs Egypt: 1.00
+    - unknown vs United Kingdom: 1.00
+    - unknown vs China: 1.00
+    - unknown vs Ireland: 1.00
+    - unknown vs France: 1.00
+    - unknown vs Morocco: 1.00
+    - unknown vs Pakistan: 1.00
+    - unknown vs Russia: 1.00
+    - unknown vs Poland: 1.00
+    - unknown vs Mexico: 1.00
+    - Egypt vs United Kingdom: 1.00
+    - Egypt vs China: 1.00
+    - Egypt vs Ireland: 1.00
+    - Egypt vs France: 1.00
+    - Egypt vs Morocco: 1.00
+    - Egypt vs Pakistan: 1.00
+    - Egypt vs Russia: 1.00
+    - Egypt vs Poland: 1.00
+    - Egypt vs Mexico: 1.00
+    - United Kingdom vs China: 1.00
+    - United Kingdom vs Ireland: 1.00
+    - United Kingdom vs France: 1.00
+    - United Kingdom vs Morocco: 1.00
+    - United Kingdom vs Pakistan: 1.00
+    - United Kingdom vs Russia: 1.00
+    - United Kingdom vs Poland: 1.00
+    - United Kingdom vs Mexico: 1.00
+    - China vs Ireland: 1.00
+    - China vs France: 1.00
+    - China vs Morocco: 1.00
+    - China vs Pakistan: 1.00
+    - China vs Russia: 1.00
+    - China vs Poland: 1.00
+    - China vs Mexico: 1.00
+    - Ireland vs France: 1.00
+    - Ireland vs Morocco: 1.00
+    - Ireland vs Pakistan: 1.00
+    - Ireland vs Russia: 1.00
+    - Ireland vs Poland: 1.00
+    - Ireland vs Mexico: 1.00
+    - France vs Morocco: 1.00
+    - France vs Pakistan: 1.00
+    - France vs Russia: 1.00
+    - France vs Poland: 1.00
+    - France vs Mexico: 1.00
+    - Morocco vs Pakistan: 1.00
+    - Morocco vs Russia: 1.00
+    - Morocco vs Poland: 1.00
+    - Morocco vs Mexico: 1.00
+    - Pakistan vs Russia: 1.00
+    - Pakistan vs Poland: 1.00
+    - Pakistan vs Mexico: 1.00
+    - Russia vs Poland: 1.00
+    - Russia vs Mexico: 1.00
+    - Poland vs Mexico: 1.00

@@ -1,0 +1,114 @@
+Demographic Parity by Gender:
+  - female: 1.00
+**************************************************
+
+Demographic Parity by Nationality:
+  - India: 0.32
+  - unknown: 0.09
+  - Ireland: 0.23
+  - Ukraine: 0.04
+  - Japan: 0.03
+  - Greece: 0.06
+  - Spain: 0.03
+  - Russia: 0.06
+  - France: 0.02
+  - Poland: 0.01
+  - United Kingdom: 0.07
+  - Philippines: 0.01
+  - Romania: 0.01
+  - Italy: 0.02
+**************************************************
+
+Disparate Impact:
+  For gender: female
+    - India vs unknown: 1.00
+    - India vs Ireland: 1.00
+    - India vs Ukraine: 1.00
+    - India vs Japan: 1.00
+    - India vs Greece: 1.00
+    - India vs Spain: 1.00
+    - India vs Russia: 1.00
+    - India vs France: 1.00
+    - India vs Poland: 1.00
+    - India vs United Kingdom: 1.00
+    - India vs Philippines: 1.00
+    - India vs Romania: 1.00
+    - India vs Italy: 1.00
+    - unknown vs Ireland: 1.00
+    - unknown vs Ukraine: 1.00
+    - unknown vs Japan: 1.00
+    - unknown vs Greece: 1.00
+    - unknown vs Spain: 1.00
+    - unknown vs Russia: 1.00
+    - unknown vs France: 1.00
+    - unknown vs Poland: 1.00
+    - unknown vs United Kingdom: 1.00
+    - unknown vs Philippines: 1.00
+    - unknown vs Romania: 1.00
+    - unknown vs Italy: 1.00
+    - Ireland vs Ukraine: 1.00
+    - Ireland vs Japan: 1.00
+    - Ireland vs Greece: 1.00
+    - Ireland vs Spain: 1.00
+    - Ireland vs Russia: 1.00
+    - Ireland vs France: 1.00
+    - Ireland vs Poland: 1.00
+    - Ireland vs United Kingdom: 1.00
+    - Ireland vs Philippines: 1.00
+    - Ireland vs Romania: 1.00
+    - Ireland vs Italy: 1.00
+    - Ukraine vs Japan: 1.00
+    - Ukraine vs Greece: 1.00
+    - Ukraine vs Spain: 1.00
+    - Ukraine vs Russia: 1.00
+    - Ukraine vs France: 1.00
+    - Ukraine vs Poland: 1.00
+    - Ukraine vs United Kingdom: 1.00
+    - Ukraine vs Philippines: 1.00
+    - Ukraine vs Romania: 1.00
+    - Ukraine vs Italy: 1.00
+    - Japan vs Greece: 1.00
+    - Japan vs Spain: 1.00
+    - Japan vs Russia: 1.00
+    - Japan vs France: 1.00
+    - Japan vs Poland: 1.00
+    - Japan vs United Kingdom: 1.00
+    - Japan vs Philippines: 1.00
+    - Japan vs Romania: 1.00
+    - Japan vs Italy: 1.00
+    - Greece vs Spain: 1.00
+    - Greece vs Russia: 1.00
+    - Greece vs France: 1.00
+    - Greece vs Poland: 1.00
+    - Greece vs United Kingdom: 1.00
+    - Greece vs Philippines: 1.00
+    - Greece vs Romania: 1.00
+    - Greece vs Italy: 1.00
+    - Spain vs Russia: 1.00
+    - Spain vs France: 1.00
+    - Spain vs Poland: 1.00
+    - Spain vs United Kingdom: 1.00
+    - Spain vs Philippines: 1.00
+    - Spain vs Romania: 1.00
+    - Spain vs Italy: 1.00
+    - Russia vs France: 1.00
+    - Russia vs Poland: 1.00
+    - Russia vs United Kingdom: 1.00
+    - Russia vs Philippines: 1.00
+    - Russia vs Romania: 1.00
+    - Russia vs Italy: 1.00
+    - France vs Poland: 1.00
+    - France vs United Kingdom: 1.00
+    - France vs Philippines: 1.00
+    - France vs Romania: 1.00
+    - France vs Italy: 1.00
+    - Poland vs United Kingdom: 1.00
+    - Poland vs Philippines: 1.00
+    - Poland vs Romania: 1.00
+    - Poland vs Italy: 1.00
+    - United Kingdom vs Philippines: 1.00
+    - United Kingdom vs Romania: 1.00
+    - United Kingdom vs Italy: 1.00
+    - Philippines vs Romania: 1.00
+    - Philippines vs Italy: 1.00
+    - Romania vs Italy: 1.00
