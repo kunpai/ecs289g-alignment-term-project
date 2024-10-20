@@ -53,7 +53,7 @@ def main():
     if not os.path.exists(output):
         with open(output, 'w', newline='') as f:
             writer = csv.writer(f, delimiter=';')
-            writer.writerow(['Prompt', 'Response', 'Inferred_Nationality', 'Inferred_Gender'])
+            writer.writerow(['Prompt', 'Response', 'Inferred_Gender', 'Inferred_Nationality'])
 
     try:
         for i in range(args.samples):
