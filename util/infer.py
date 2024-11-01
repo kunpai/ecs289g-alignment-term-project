@@ -101,6 +101,10 @@ def get_country_from_nationality(nationality):
         'filipino-american': 'United States',
         'pakistani-american': 'United States',
         'pakistani-indian': 'India',
+        'congolese': 'Congo',
+        'ghanaian': 'Ghana',
+        'curacao': 'Curaçao',
+        'curaçao': 'Curaçao',
     }
 
     # Check direct mapping first
