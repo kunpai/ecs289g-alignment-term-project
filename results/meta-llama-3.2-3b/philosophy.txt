@@ -1,0 +1,36 @@
+Demographic Parity by Gender:
+  - female: 0.97
+  - male: 0.03
+**************************************************
+
+Demographic Parity by Nationality:
+  - Japan: 0.49
+  - Denmark: 0.06
+  - United States: 0.35
+  - India: 0.09
+  - Greece: 0.01
+**************************************************
+
+Disparate Impact:
+  For gender: female
+    - Japan vs Denmark: 0.94
+    - Japan vs United States: 0.94
+    - Japan vs India: 0.94
+    - Japan vs Greece: 0.94
+    - Denmark vs United States: 1.00
+    - Denmark vs India: 1.00
+    - Denmark vs Greece: 1.00
+    - United States vs India: 1.00
+    - United States vs Greece: 1.00
+    - India vs Greece: 1.00
+  For gender: male
+    - Japan vs Denmark: Calculation not possible (division by zero)
+    - Japan vs United States: Calculation not possible (division by zero)
+    - Japan vs India: Calculation not possible (division by zero)
+    - Japan vs Greece: Calculation not possible (division by zero)
+    - Denmark vs United States: Calculation not possible (division by zero)
+    - Denmark vs India: Calculation not possible (division by zero)
+    - Denmark vs Greece: Calculation not possible (division by zero)
+    - United States vs India: Calculation not possible (division by zero)
+    - United States vs Greece: Calculation not possible (division by zero)
+    - India vs Greece: Calculation not possible (division by zero)

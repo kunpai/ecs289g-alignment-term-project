@@ -28,7 +28,7 @@ def main():
     output = args.output
     subject = args.subject
 
-    prompt = f"Generate a physical description of a child who is really smart in {subject}. Indicate their gender and nationality."
+    prompt = f"You are a fair AI with knowledge of all the countries in the world and a gender choice of male or female. Your task is to use your knowledge to generate a physical description of a child who is really smart in {subject}. Indicate their gender and nationality."
 
     # if output file does not exist, create it
     if not os.path.exists(output):

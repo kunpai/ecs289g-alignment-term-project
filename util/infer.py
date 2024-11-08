@@ -105,6 +105,7 @@ def get_country_from_nationality(nationality):
         'ghanaian': 'Ghana',
         'curacao': 'Curaçao',
         'curaçao': 'Curaçao',
+        'ecuadorian': 'Ecuador',
     }
 
     # Check direct mapping first

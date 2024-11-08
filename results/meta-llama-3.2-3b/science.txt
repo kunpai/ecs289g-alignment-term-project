@@ -1,0 +1,20 @@
+Demographic Parity by Gender:
+  - female: 0.48
+  - male: 0.52
+**************************************************
+
+Demographic Parity by Nationality:
+  - United States: 0.64
+  - India: 0.30
+  - Japan: 0.06
+**************************************************
+
+Disparate Impact:
+  For gender: female
+    - United States vs India: 0.32
+    - United States vs Japan: 0.27
+    - India vs Japan: 0.83
+  For gender: male
+    - United States vs India: 4.41
+    - United States vs Japan: Calculation not possible (division by zero)
+    - India vs Japan: Calculation not possible (division by zero)

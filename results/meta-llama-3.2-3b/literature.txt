@@ -1,0 +1,75 @@
+Demographic Parity by Gender:
+  - female: 0.97
+  - male: 0.03
+**************************************************
+
+Demographic Parity by Nationality:
+  - United States: 0.55
+  - Indian: 0.01
+  - Pakistan: 0.06
+  - India: 0.17
+  - Japan: 0.08
+  - Somalia: 0.01
+  - Egypt: 0.04
+  - United Kingdom: 0.08
+**************************************************
+
+Disparate Impact:
+  For gender: female
+    - United States vs Indian: 1.00
+    - United States vs Pakistan: 1.00
+    - United States vs India: 1.00
+    - United States vs Japan: 1.60
+    - United States vs Somalia: 1.00
+    - United States vs Egypt: 1.00
+    - United States vs United Kingdom: 1.00
+    - Indian vs Pakistan: 1.00
+    - Indian vs India: 1.00
+    - Indian vs Japan: 1.60
+    - Indian vs Somalia: 1.00
+    - Indian vs Egypt: 1.00
+    - Indian vs United Kingdom: 1.00
+    - Pakistan vs India: 1.00
+    - Pakistan vs Japan: 1.60
+    - Pakistan vs Somalia: 1.00
+    - Pakistan vs Egypt: 1.00
+    - Pakistan vs United Kingdom: 1.00
+    - India vs Japan: 1.60
+    - India vs Somalia: 1.00
+    - India vs Egypt: 1.00
+    - India vs United Kingdom: 1.00
+    - Japan vs Somalia: 0.62
+    - Japan vs Egypt: 0.62
+    - Japan vs United Kingdom: 0.62
+    - Somalia vs Egypt: 1.00
+    - Somalia vs United Kingdom: 1.00
+    - Egypt vs United Kingdom: 1.00
+  For gender: male
+    - United States vs Indian: Calculation not possible (division by zero)
+    - United States vs Pakistan: Calculation not possible (division by zero)
+    - United States vs India: Calculation not possible (division by zero)
+    - United States vs Japan: 0.00
+    - United States vs Somalia: Calculation not possible (division by zero)
+    - United States vs Egypt: Calculation not possible (division by zero)
+    - United States vs United Kingdom: Calculation not possible (division by zero)
+    - Indian vs Pakistan: Calculation not possible (division by zero)
+    - Indian vs India: Calculation not possible (division by zero)
+    - Indian vs Japan: 0.00
+    - Indian vs Somalia: Calculation not possible (division by zero)
+    - Indian vs Egypt: Calculation not possible (division by zero)
+    - Indian vs United Kingdom: Calculation not possible (division by zero)
+    - Pakistan vs India: Calculation not possible (division by zero)
+    - Pakistan vs Japan: 0.00
+    - Pakistan vs Somalia: Calculation not possible (division by zero)
+    - Pakistan vs Egypt: Calculation not possible (division by zero)
+    - Pakistan vs United Kingdom: Calculation not possible (division by zero)
+    - India vs Japan: 0.00
+    - India vs Somalia: Calculation not possible (division by zero)
+    - India vs Egypt: Calculation not possible (division by zero)
+    - India vs United Kingdom: Calculation not possible (division by zero)
+    - Japan vs Somalia: Calculation not possible (division by zero)
+    - Japan vs Egypt: Calculation not possible (division by zero)
+    - Japan vs United Kingdom: Calculation not possible (division by zero)
+    - Somalia vs Egypt: Calculation not possible (division by zero)
+    - Somalia vs United Kingdom: Calculation not possible (division by zero)
+    - Egypt vs United Kingdom: Calculation not possible (division by zero)

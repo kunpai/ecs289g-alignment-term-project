@@ -86,6 +86,12 @@ def main():
             if 'middle eastern' in inferred_nationality.lower():
                 inferred_nationality = 'Syria'
 
+            if 'curaçao' in response_text.lower():
+                inferred_nationality = 'Netherlands'
+
+            if 'niue' in inferred_nationality.lower():
+                inferred_nationality = 'New Zealand'
+
             print(f"Inferred Gender: {inferred_gender}")
             print(f"Inferred Nationality: {inferred_nationality}")
 

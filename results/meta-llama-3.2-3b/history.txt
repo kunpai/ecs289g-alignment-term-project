@@ -1,0 +1,132 @@
+Demographic Parity by Gender:
+  - female: 0.99
+  - male: 0.01
+**************************************************
+
+Demographic Parity by Nationality:
+  - India: 0.10
+  - Japan: 0.27
+  - Kenya: 0.01
+  - United States: 0.34
+  - Pakistan: 0.19
+  - Hindu: 0.01
+  - Mexico: 0.01
+  - Afghanistan: 0.01
+  - unknown: 0.04
+  - Egypt: 0.01
+  - Somalia: 0.01
+**************************************************
+
+Disparate Impact:
+  For gender: female
+    - India vs Japan: 1.04
+    - India vs Kenya: 1.00
+    - India vs United States: 1.00
+    - India vs Pakistan: 1.00
+    - India vs Hindu: 1.00
+    - India vs Mexico: 1.00
+    - India vs Afghanistan: 1.00
+    - India vs unknown: 1.00
+    - India vs Egypt: 1.00
+    - India vs Somalia: 1.00
+    - Japan vs Kenya: 0.96
+    - Japan vs United States: 0.96
+    - Japan vs Pakistan: 0.96
+    - Japan vs Hindu: 0.96
+    - Japan vs Mexico: 0.96
+    - Japan vs Afghanistan: 0.96
+    - Japan vs unknown: 0.96
+    - Japan vs Egypt: 0.96
+    - Japan vs Somalia: 0.96
+    - Kenya vs United States: 1.00
+    - Kenya vs Pakistan: 1.00
+    - Kenya vs Hindu: 1.00
+    - Kenya vs Mexico: 1.00
+    - Kenya vs Afghanistan: 1.00
+    - Kenya vs unknown: 1.00
+    - Kenya vs Egypt: 1.00
+    - Kenya vs Somalia: 1.00
+    - United States vs Pakistan: 1.00
+    - United States vs Hindu: 1.00
+    - United States vs Mexico: 1.00
+    - United States vs Afghanistan: 1.00
+    - United States vs unknown: 1.00
+    - United States vs Egypt: 1.00
+    - United States vs Somalia: 1.00
+    - Pakistan vs Hindu: 1.00
+    - Pakistan vs Mexico: 1.00
+    - Pakistan vs Afghanistan: 1.00
+    - Pakistan vs unknown: 1.00
+    - Pakistan vs Egypt: 1.00
+    - Pakistan vs Somalia: 1.00
+    - Hindu vs Mexico: 1.00
+    - Hindu vs Afghanistan: 1.00
+    - Hindu vs unknown: 1.00
+    - Hindu vs Egypt: 1.00
+    - Hindu vs Somalia: 1.00
+    - Mexico vs Afghanistan: 1.00
+    - Mexico vs unknown: 1.00
+    - Mexico vs Egypt: 1.00
+    - Mexico vs Somalia: 1.00
+    - Afghanistan vs unknown: 1.00
+    - Afghanistan vs Egypt: 1.00
+    - Afghanistan vs Somalia: 1.00
+    - unknown vs Egypt: 1.00
+    - unknown vs Somalia: 1.00
+    - Egypt vs Somalia: 1.00
+  For gender: male
+    - India vs Japan: 0.00
+    - India vs Kenya: Calculation not possible (division by zero)
+    - India vs United States: Calculation not possible (division by zero)
+    - India vs Pakistan: Calculation not possible (division by zero)
+    - India vs Hindu: Calculation not possible (division by zero)
+    - India vs Mexico: Calculation not possible (division by zero)
+    - India vs Afghanistan: Calculation not possible (division by zero)
+    - India vs unknown: Calculation not possible (division by zero)
+    - India vs Egypt: Calculation not possible (division by zero)
+    - India vs Somalia: Calculation not possible (division by zero)
+    - Japan vs Kenya: Calculation not possible (division by zero)
+    - Japan vs United States: Calculation not possible (division by zero)
+    - Japan vs Pakistan: Calculation not possible (division by zero)
+    - Japan vs Hindu: Calculation not possible (division by zero)
+    - Japan vs Mexico: Calculation not possible (division by zero)
+    - Japan vs Afghanistan: Calculation not possible (division by zero)
+    - Japan vs unknown: Calculation not possible (division by zero)
+    - Japan vs Egypt: Calculation not possible (division by zero)
+    - Japan vs Somalia: Calculation not possible (division by zero)
+    - Kenya vs United States: Calculation not possible (division by zero)
+    - Kenya vs Pakistan: Calculation not possible (division by zero)
+    - Kenya vs Hindu: Calculation not possible (division by zero)
+    - Kenya vs Mexico: Calculation not possible (division by zero)
+    - Kenya vs Afghanistan: Calculation not possible (division by zero)
+    - Kenya vs unknown: Calculation not possible (division by zero)
+    - Kenya vs Egypt: Calculation not possible (division by zero)
+    - Kenya vs Somalia: Calculation not possible (division by zero)
+    - United States vs Pakistan: Calculation not possible (division by zero)
+    - United States vs Hindu: Calculation not possible (division by zero)
+    - United States vs Mexico: Calculation not possible (division by zero)
+    - United States vs Afghanistan: Calculation not possible (division by zero)
+    - United States vs unknown: Calculation not possible (division by zero)
+    - United States vs Egypt: Calculation not possible (division by zero)
+    - United States vs Somalia: Calculation not possible (division by zero)
+    - Pakistan vs Hindu: Calculation not possible (division by zero)
+    - Pakistan vs Mexico: Calculation not possible (division by zero)
+    - Pakistan vs Afghanistan: Calculation not possible (division by zero)
+    - Pakistan vs unknown: Calculation not possible (division by zero)
+    - Pakistan vs Egypt: Calculation not possible (division by zero)
+    - Pakistan vs Somalia: Calculation not possible (division by zero)
+    - Hindu vs Mexico: Calculation not possible (division by zero)
+    - Hindu vs Afghanistan: Calculation not possible (division by zero)
+    - Hindu vs unknown: Calculation not possible (division by zero)
+    - Hindu vs Egypt: Calculation not possible (division by zero)
+    - Hindu vs Somalia: Calculation not possible (division by zero)
+    - Mexico vs Afghanistan: Calculation not possible (division by zero)
+    - Mexico vs unknown: Calculation not possible (division by zero)
+    - Mexico vs Egypt: Calculation not possible (division by zero)
+    - Mexico vs Somalia: Calculation not possible (division by zero)
+    - Afghanistan vs unknown: Calculation not possible (division by zero)
+    - Afghanistan vs Egypt: Calculation not possible (division by zero)
+    - Afghanistan vs Somalia: Calculation not possible (division by zero)
+    - unknown vs Egypt: Calculation not possible (division by zero)
+    - unknown vs Somalia: Calculation not possible (division by zero)
+    - Egypt vs Somalia: Calculation not possible (division by zero)
